@@ -1,9 +1,8 @@
-# My beautiful actor
+# Latest installment of this project
 
-The `README.md` file contains a documentation what your actor does and how to use it,
-which is then displayed in the app or Apify Store. It's always a good
-idea to write a good `README.md`, in a few months not even you
-will remember all the details about the actor.
+use " apify run -p " to purge the last run elements / scraped data.
 
-You can use [Markdown](https://www.markdownguide.org/cheat-sheet)
-language for rich formatting.
+There are two models inside main.js. One that pus all the extracted elements in one object and the other one that takes the extracted content into different objects.
+
+NPM version 6.13.7
+Node version 13.9.0
